@@ -80,7 +80,7 @@ namespace PryGestionTareasDamonte
         private void reporteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmReporte frmReporte = new FrmReporte();
-            FrmReporte.Show();
+            frmReporte.Show();
             this.Hide();
         }
     }
