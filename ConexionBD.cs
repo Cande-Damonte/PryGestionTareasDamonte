@@ -12,10 +12,6 @@ namespace PryGestionTareasDamonte
     public class ConexionBD
     {
 
-        /////////////////falta el de reporte lstbox
-        /// <summary>
-        /// 
-        /// </summary>
         //Se declaran las variables conexion, comando y adaptador para manejar la conexión a la base de datos,
         //los comandos SQL y el adaptador de datos
         OleDbConnection conexion;
@@ -43,7 +39,7 @@ namespace PryGestionTareasDamonte
                 comando.CommandType = CommandType.Text;
                 comando.CommandText = "SELECT * FROM Tareas";// Selecciona todos las tareas.  
 
-                DataTable tablaTareas = new DataTable(); // Crea un DataTable para almacenar los datos.
+                DataTable tablaTareas = new DataTable(); // Crea un DataTable(estructura de datos que representa una tabla)para almacenar los datos.
 
                 adaptador = new OleDbDataAdapter(comando);// Adaptador para llenar el DataTable
                 adaptador.Fill(tablaTareas); // Llenar el DataTable con datos de la base de datos

@@ -34,7 +34,6 @@
             this.TxtDNI = new System.Windows.Forms.TextBox();
             this.TxtUsuario = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tareasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearTareaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.completarTareaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -92,19 +91,12 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.usuarioToolStripMenuItem,
             this.tareasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(320, 24);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // usuarioToolStripMenuItem
-            // 
-            this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.usuarioToolStripMenuItem.Text = "Usuario";
             // 
             // tareasToolStripMenuItem
             // 
@@ -113,7 +105,7 @@
             this.completarTareaToolStripMenuItem,
             this.reporteToolStripMenuItem});
             this.tareasToolStripMenuItem.Name = "tareasToolStripMenuItem";
-            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.tareasToolStripMenuItem.Text = "Tareas";
             // 
             // crearTareaToolStripMenuItem
@@ -148,7 +140,10 @@
             this.Controls.Add(this.BtnCrear);
             this.Controls.Add(this.LblNombre);
             this.Controls.Add(this.LblDNI);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmCrearUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crear Usuario";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -165,7 +160,6 @@
         private System.Windows.Forms.TextBox TxtDNI;
         private System.Windows.Forms.TextBox TxtUsuario;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tareasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem crearTareaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem completarTareaToolStripMenuItem;
