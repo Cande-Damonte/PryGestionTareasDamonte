@@ -16,5 +16,12 @@ namespace PryGestionTareasDamonte
         {
             InitializeComponent();
         }
+
+        private void crearUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCrearUsuario frmCrearUsuario = new FrmCrearUsuario();
+            frmCrearUsuario.Show();
+            this.Hide();
+        }
     }
 }

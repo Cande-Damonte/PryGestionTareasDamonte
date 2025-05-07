@@ -81,8 +81,9 @@
             // crearUsuarioToolStripMenuItem
             // 
             this.crearUsuarioToolStripMenuItem.Name = "crearUsuarioToolStripMenuItem";
-            this.crearUsuarioToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.crearUsuarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.crearUsuarioToolStripMenuItem.Text = "Crear Usuario";
+            this.crearUsuarioToolStripMenuItem.Click += new System.EventHandler(this.crearUsuarioToolStripMenuItem_Click);
             // 
             // tareasToolStripMenuItem
             // 
@@ -90,19 +91,19 @@
             this.crearTareaToolStripMenuItem,
             this.completarTareaToolStripMenuItem});
             this.tareasToolStripMenuItem.Name = "tareasToolStripMenuItem";
-            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.tareasToolStripMenuItem.Text = "Tareas";
             // 
             // crearTareaToolStripMenuItem
             // 
             this.crearTareaToolStripMenuItem.Name = "crearTareaToolStripMenuItem";
-            this.crearTareaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.crearTareaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.crearTareaToolStripMenuItem.Text = "Crear Tarea";
             // 
             // completarTareaToolStripMenuItem
             // 
             this.completarTareaToolStripMenuItem.Name = "completarTareaToolStripMenuItem";
-            this.completarTareaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.completarTareaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.completarTareaToolStripMenuItem.Text = "Completar Tarea";
             // 
             // FrmReporte
