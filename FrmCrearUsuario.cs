@@ -21,21 +21,21 @@ namespace PryGestionTareasDamonte
         {
             FrmCrearTarea frmCrearTarea = new FrmCrearTarea();
             frmCrearTarea.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void completarTareaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmCompletarTarea frmCompletarUsuario = new FrmCompletarTarea();
             frmCompletarUsuario.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void reporteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmReporte frmReporte = new FrmReporte();
             frmReporte.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void BtnCrear_Click(object sender, EventArgs e)

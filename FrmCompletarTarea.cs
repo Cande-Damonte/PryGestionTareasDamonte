@@ -62,5 +62,26 @@ namespace PryGestionTareasDamonte
             }
 
         }
+
+        private void crearUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCrearUsuario frmCrearUsuario = new FrmCrearUsuario();
+            frmCrearUsuario.Show();
+            this.Hide();
+        }
+
+        private void crearTareaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCrearTarea frmCrearTarea = new FrmCrearTarea();
+            frmCrearTarea.Show();
+            this.Hide();
+        }
+
+        private void reporteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmReporte frmReporte = new FrmReporte();
+            FrmReporte.Show();
+            this.Hide();
+        }
     }
 }

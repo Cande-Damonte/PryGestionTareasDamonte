@@ -141,8 +141,9 @@
             // crearUsuarioToolStripMenuItem
             // 
             this.crearUsuarioToolStripMenuItem.Name = "crearUsuarioToolStripMenuItem";
-            this.crearUsuarioToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.crearUsuarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.crearUsuarioToolStripMenuItem.Text = "Crear Usuario";
+            this.crearUsuarioToolStripMenuItem.Click += new System.EventHandler(this.crearUsuarioToolStripMenuItem_Click);
             // 
             // tareasToolStripMenuItem
             // 
@@ -150,20 +151,22 @@
             this.crearTareaToolStripMenuItem,
             this.reporteToolStripMenuItem});
             this.tareasToolStripMenuItem.Name = "tareasToolStripMenuItem";
-            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.tareasToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.tareasToolStripMenuItem.Text = "Tareas";
             // 
             // crearTareaToolStripMenuItem
             // 
             this.crearTareaToolStripMenuItem.Name = "crearTareaToolStripMenuItem";
-            this.crearTareaToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.crearTareaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.crearTareaToolStripMenuItem.Text = "Crear Tarea";
+            this.crearTareaToolStripMenuItem.Click += new System.EventHandler(this.crearTareaToolStripMenuItem_Click);
             // 
             // reporteToolStripMenuItem
             // 
             this.reporteToolStripMenuItem.Name = "reporteToolStripMenuItem";
-            this.reporteToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
+            this.reporteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.reporteToolStripMenuItem.Text = "Reporte";
+            this.reporteToolStripMenuItem.Click += new System.EventHandler(this.reporteToolStripMenuItem_Click);
             // 
             // FrmCompletarTarea
             // 
